@@ -16,6 +16,7 @@ MULTI
 LINE
 COMMENT]]
 # Reflexive example code
+`` Reflexive
 release(score) = 101
 
 so score => 100 do
@@ -24,5 +25,9 @@ stop
 
 so score =< 100 do
     write("score is tinier or equal to 100!")
-stop
+stop``
 should output condition one with some debugging
+# How to install
+drop the reflexive file in your main shell terminal app directory or if in termux make a folder with reflexive file inside and do `cd /path/to/directory
+make
+cp reflexive $PREFIX/bin/` this should make it work then make a file with .rfx as extension and working code, go to terminal then run "reflexive [filename].rfx" and the file if correct should work
