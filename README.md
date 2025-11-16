@@ -159,3 +159,5 @@ Reflexive is a great choice if you want to efficiently learn variables and condi
 You can also use it in your projects as conditional file and stuff. also debugs your condition in real time.
 # Example Projects:
 You can use Reflexive in: AI Projects, Coding Language Making (machine understands better with debugging, but makes it slightly harder to code.), Simple conditional testing, VR Games, Web Making (Reflexive makes the variables and handles the conditionals, same for VR gaming or any gaming.)
+# Any Problems?
+Absolutely make sure it's possible to embed Reflexive, or it becomes useless storage waste.
