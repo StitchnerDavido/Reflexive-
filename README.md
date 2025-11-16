@@ -31,3 +31,7 @@ should output condition one with some debugging
 drop the reflexive file in your main shell terminal app directory or if in termux make a folder with reflexive file inside and do `cd /path/to/directory
 make
 cp reflexive $PREFIX/bin/` this should make it work then make a file with .rfx as extension and working code, go to terminal then run "reflexive [filename].rfx" and the file if correct should work
+# Documentary
+This was made November 15 2025 on Saturday out of boredom, and made with the full use of DeepSeek AI. The design was 100% by me, coding 100% by DeepSeek.
+# Structure
+Reflexive was made using ANSI C, uses bytecode, elf binary. This is my first project on this account. Thank you for coming.
