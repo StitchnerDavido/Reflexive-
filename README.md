@@ -151,3 +151,5 @@ __aeabi_memset4
 __aeabi_memset8
 __aeabi_memclr
 _DYNAMIC
+# Implementation
+If you want to implement Reflexive into a terminal, make sure you first correctly installed it. Then, code the trigger in bash with an extension of `.sh`. Make sure you do chmod +x ./filename.sh (replace filename with your actual file name with .sh extension at the end) check if the bash code works correctly. After all that, do `bash filename.sh` and if the code works it should call your reflexive file (after the first chunk in your bash code, type `reflexive filename.rfx` that has reflexive code inside) so that when bash is called the bash also calls your reflexive file.
