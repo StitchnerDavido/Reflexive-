@@ -35,3 +35,119 @@ cp reflexive $PREFIX/bin/` this should make it work then make a file with .rfx a
 This was made November 15 2025 on Saturday out of boredom, and made with the full use of DeepSeek AI. The design was 100% by me, coding 100% by DeepSeek.
 # Structure
 Reflexive was made using ANSI C, uses bytecode, elf binary. This is my first project on this account. Thank you for coming.
+# Paradigm
+The paradigm is pretty basic. it's just variables and condition.
+# File Stuff (ignore Ui element, tables, modules and inputs. they don't work.)
+/system/bin/linker
+13676358
+__libc_init
+__cxa_atexit
+__register_atfork
+/data/data/com.termux/files/usr/bin/../../usr/lib
+libdl.so
+reflexive>
+releasel
+Condition: %s %s %s = %s
+Usage: reflexive [script.rfx]
+DEBUG: Syncing %d tables
+define.done
+UI Action triggered: %s
+Invalid comparison syntax
+Unknown opcode: %d
+Type mismatch in comparison
+variable_lookup_not_implemented
+DEBUG: User entered: %s
+Executing TRUE branch...
+Loading module: %s as %s
+Unknown operator: %s
+PressAction
+dimensions
+Error: Could not open file %s
+DEBUG: Created table '%s' with %d elements
+[unknown]
+Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+Linker: LLD 20.1.8
+clang version 20.1.8
+.note.android.ident
+.gnu.version
+.gnu.version_r
+.gnu.hash
+.rel.dyn
+.relr.dyn
+.ARM.exidx
+.rel.plt
+.data.rel.ro
+.dynamic
+.got.plt
+.relro_padding
+.comment
+.ARM.attributes
+.shstrtab
+crtbegin.c
+_start_main
+fini_array_with_sentinels
+call_fini_array
+note_android_ident
+note_data
+note_name
+note_end
+ndk_version
+ndk_build_number
+reflexive.c
+parser.c
+keywords
+reflexive_read_input.buffer
+variables.c
+tables.c
+__libc_init
+__fini_array_start
+__fini_array_end
+__atexit_handler_wrapper
+__cxa_atexit
+__dso_handle
+pthread_atfork
+__register_atfork
+reflexive_init
+reflexive_run_prompt
+reflexive_run_file
+reflexive_free
+parse_and_execute
+vm_add_constant
+vm_add_instruction
+vm_execute
+reflexive_write_value
+create_ast_node
+free_ast_node
+lexer_init
+lexer_next_token
+__aeabi_memcpy8
+__aeabi_memclr8
+get_variable
+reflexive_read_input
+create_table
+reflexive_write_output
+table_add_element
+set_variable
+evaluate_comparison
+parse_value_token
+is_keyword
+create_token
+__aeabi_memclr4
+__aeabi_memcpy4
+reflexive_write_table
+variable_exists
+remove_local_variables
+table_get_element
+table_sync_tables
+free_table
+create_ui_element
+set_ui_property
+set_ui_action
+trigger_ui_action
+free_ui_element
+__aeabi_memcpy
+__aeabi_memset
+__aeabi_memset4
+__aeabi_memset8
+__aeabi_memclr
+_DYNAMIC
